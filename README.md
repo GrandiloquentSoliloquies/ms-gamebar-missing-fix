@@ -13,7 +13,7 @@ The script remedies the cause of the nuisance by modifying the "ms-gamebar" keys
 If a Controller is connected, ms-gamebar is called and the script sees to it that the call both finds its target, and appears to be answered; it forwards it to "cmd.exe /c 'rem'", effectively a dud, which obligatorily does something, which is to say run a cmd command that does absolutely nothing. This effort will do its part to advance humanity in the ultimate aim of successfully experiencing a debloated Windows 11 with impunity.
 
 **Beware:** The script itself does not uninstall the Gamebar (there are specific Windows debloat tools for that), it just ensures that an uninstallation has no side effects.
-A Windows update, or an update of the Xbox (GamePass) app, might necessitate the tool having a go at it again.
+Furthermore, A Windows update, or an update of the Xbox (GamePass) app, could necessitate the tool having a go at it again.
 
 The script itself can perform an automatic self-elevation and relaunchs itself with admin rights – AI be praised! Though that feature becomes irrelevant when launching the script through the provided bat file.
 Going further, the script will also create .reg file on the Desktop which one can  use to conveniently revert the previous registry configuration, should one, for any reason, wish to do that.
