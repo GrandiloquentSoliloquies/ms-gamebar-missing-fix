@@ -40,6 +40,8 @@ There are two options for running the script (it's not rocket science):
 1.  **Download and extract**
 2.  **Double Click on the .bat file**
 
+**Fun Fact:** *You can replace `cmd.exe /c "rem"`, in the powershell script, with something like an application path "C:\Users\Julian\Documents\{Emulate Xbox360 Controller Software}". Then, whenever the ms-gamepar pop up would usually occur, the exe in the path is executed instead. However, the ms-gamebar pop up can be a bit capricious in their occurence and you wouldn't want to always have another instance of the app opening whenever the gamebar-missing pop up what have appeared; therefore some intermediary script might be necessary.*
+
 ## NOTES
 * **Author**: GrandiloquentSoliloquies
 * **Version**: 1.1
