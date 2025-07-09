@@ -29,18 +29,19 @@ The script's works like this:
 
 You have two options for running the script (it's not rocket science:
 
-**Option 1: Direct launch**
+**Option 1: Direct Powershell Execution**
 This method is the easiest and handles administrative privileges and PowerShell execution policy automatically.
 
 1.  **Download and extract** from the [Releases page](https://github.com/GrandiloquentSoliloquies/ms-gamebar-fix/releases).
 2.  On the ".ps1" file: **Right click** and, inside the context menu, click **"Run with Powershell":** (Alternatively, open powershell in Admin and do "& [Path_to_Script]".)
 3.  If there is an issue with someone's PowerShell execution policy being too restrictive, shift to Option 2.
 
-**Option 2: Direct PowerShell Execution (For advanced users)**
+**Option 2: Just launch the bat file**
 This method requires manually setting the PowerShell execution policy if it's restrictive.
 
 1.  **Download and extract**
 2.  **Double Click on the .bat file**
+
 ## NOTES
 * **Author**: GrandiloquentSoliloquies
 * **Version**: 1.1
