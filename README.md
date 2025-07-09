@@ -1,7 +1,7 @@
 # ms-gamebar-missing-fix
 The script ensures that, if the preinstalled Gamebar had previously been removed, those pesky "couldn't open gamebar" pop ups disappear.
 
-# ms-gamebar-fix
+# ms-gamebar-missing-fix
 
 ## SYNOPSIS
 Gets rid of the Windows pop-up saying the "ms-gamebar" link is missing and one is to search the Microsoft App Store.
@@ -27,17 +27,15 @@ The script's works like this:
 
 ## USAGE
 
-You have two options for running the script (it's not rocket science:
+There are two options for running the script (it's not rocket science):
 
 **Option 1: Direct Powershell Execution**
-This method is the easiest and handles administrative privileges and PowerShell execution policy automatically.
 
 1.  **Download and extract** from the [Releases page](https://github.com/GrandiloquentSoliloquies/ms-gamebar-fix/releases).
-2.  On the ".ps1" file: **Right click** and, inside the context menu, click **"Run with Powershell":** (Alternatively, open powershell in Admin and do "& [Path_to_Script]".)
+2.  On the ".ps1" file: **Right click** and, inside the context menu, click **"Run with Powershell":** (Alternatively, open powershell in Admin and do "& {Parameters} {PathToScript}" alongside the parameters of your choice.)
 3.  If there is an issue with someone's PowerShell execution policy being too restrictive, shift to Option 2.
 
-**Option 2: Just launch the bat file**
-This method requires manually setting the PowerShell execution policy if it's restrictive.
+**Option 2: Just launch the included bat file**
 
 1.  **Download and extract**
 2.  **Double Click on the .bat file**
