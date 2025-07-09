@@ -33,8 +33,7 @@ You have two options for running the script (it's not rocket science:
 This method is the easiest and handles administrative privileges and PowerShell execution policy automatically.
 
 1.  **Download and extract** from the [Releases page](https://github.com/GrandiloquentSoliloquies/ms-gamebar-fix/releases).
-2A.  On the ".ps1" file: **Right click** and, inside the context menu, click **"Run with Powershell":**
-2B. Alternatively, open powershell in Admin and do "& [Path_to_Script]".
+2.  On the ".ps1" file: **Right click** and, inside the context menu, click **"Run with Powershell":** (Alternatively, open powershell in Admin and do "& [Path_to_Script]".)
 3.  If there is an issue with someone's PowerShell execution policy being too restrictive, shift to Option 2.
 
 **Option 2: Direct PowerShell Execution (For advanced users)**
